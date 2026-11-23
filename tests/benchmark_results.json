@@ -1,0 +1,152 @@
+{
+  "test_set": [
+    {
+      "path": "D:\\photoes\\Nikon相机照片\\比特恢复的文件\\00 找到的文件   (9173 个文件)\\图片\\jpg\\1088e80.jpg",
+      "size_kb": 486,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "path": "D:\\photoes\\Nikon相机照片\\比特恢复的文件\\00 找到的文件   (9173 个文件)\\图片\\jpg\\108b580.jpg",
+      "size_kb": 899,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "path": "D:\\photoes\\Nikon相机照片\\比特恢复的文件\\00 找到的文件   (9173 个文件)\\图片\\jpg\\1018600.jpg",
+      "size_kb": 875,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "path": "D:\\photoes\\Nikon相机照片\\比特恢复的文件\\00 找到的文件   (9173 个文件)\\图片\\jpg\\1005300.jpg",
+      "size_kb": 937,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "path": "D:\\photoes\\2024春节古装照片\\5C3A4640.JPG",
+      "size_kb": 7162,
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "path": "D:\\photoes\\2024春节古装照片\\5C3A4634.JPG",
+      "size_kb": 6960,
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "path": "D:\\photoes\\2024春节古装照片\\5C3A4631.JPG",
+      "size_kb": 6582,
+      "width": 6000,
+      "height": 4000
+    }
+  ],
+  "results": [
+    {
+      "name": "Baseline",
+      "avg_per_img_ms": [
+        119.7,
+        101.8,
+        100.3,
+        101.6,
+        191.6,
+        243.2,
+        188.1
+      ],
+      "total_ms": 1046.4,
+      "avg_ms": 149.5
+    },
+    {
+      "name": "imgsz=640",
+      "avg_per_img_ms": [
+        104.4,
+        102.6,
+        107.0,
+        103.2,
+        131.4,
+        138.6,
+        130.6
+      ],
+      "total_ms": 817.8,
+      "avg_ms": 116.8
+    },
+    {
+      "name": "pre-resize 640",
+      "avg_per_img_ms": [
+        99.9,
+        96.1,
+        98.6,
+        101.9,
+        106.8,
+        101.9,
+        99.4
+      ],
+      "total_ms": 704.6,
+      "avg_ms": 100.7
+    },
+    {
+      "name": "ONNX Runtime",
+      "avg_per_img_ms": [
+        161.3,
+        194.0,
+        165.1,
+        180.6,
+        221.3,
+        196.6,
+        195.0
+      ],
+      "total_ms": 1314.0,
+      "avg_ms": 187.7
+    },
+    {
+      "name": "OpenVINO",
+      "avg_ms": "N/A",
+      "avg_per_img_ms": "N/A"
+    },
+    {
+      "name": "Batch (all at once)",
+      "total_ms": 1277.9,
+      "avg_ms": 182.6,
+      "avg_per_img_ms": [
+        182.6,
+        182.6,
+        182.6,
+        182.6,
+        182.6,
+        182.6,
+        182.6
+      ]
+    },
+    {
+      "name": "YOLO+keypoints eye",
+      "avg_per_img_ms": [
+        155.0,
+        149.0,
+        441.0,
+        164.2,
+        205.3,
+        183.0,
+        186.8
+      ],
+      "total_ms": 1484.4,
+      "avg_ms": 212.1
+    }
+  ],
+  "eye_validation": {
+    "name": "Eye validation",
+    "avg_per_img_ms": [
+      102.3,
+      96.9,
+      98.1,
+      95.5,
+      448.5,
+      172.2,
+      173.5
+    ],
+    "total_ms": 1187.0,
+    "avg_ms": 169.6
+  },
+  "baseline_ms": 149.5
+}

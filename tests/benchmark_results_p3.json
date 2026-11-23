@@ -1,0 +1,109 @@
+{
+  "test_set": [
+    {
+      "path": "D:\\photoes\\Nikon相机照片\\比特恢复的文件\\00 找到的文件   (9173 个文件)\\图片\\jpg\\1088e80.jpg",
+      "size_kb": 486,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "path": "D:\\photoes\\Nikon相机照片\\比特恢复的文件\\00 找到的文件   (9173 个文件)\\图片\\jpg\\108b580.jpg",
+      "size_kb": 899,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "path": "D:\\photoes\\Nikon相机照片\\比特恢复的文件\\00 找到的文件   (9173 个文件)\\图片\\jpg\\1018600.jpg",
+      "size_kb": 875,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "path": "D:\\photoes\\Nikon相机照片\\比特恢复的文件\\00 找到的文件   (9173 个文件)\\图片\\jpg\\1005300.jpg",
+      "size_kb": 937,
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "path": "D:\\photoes\\2024春节古装照片\\5C3A4640.JPG",
+      "size_kb": 7162,
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "path": "D:\\photoes\\2024春节古装照片\\5C3A4634.JPG",
+      "size_kb": 6960,
+      "width": 6000,
+      "height": 4000
+    },
+    {
+      "path": "D:\\photoes\\2024春节古装照片\\5C3A4631.JPG",
+      "size_kb": 6582,
+      "width": 6000,
+      "height": 4000
+    }
+  ],
+  "results": {
+    "baseline": {
+      "name": "Baseline ultralytics",
+      "avg_ms": 249.0,
+      "median_ms": 208.2,
+      "min_ms": 136.3,
+      "max_ms": 622.2
+    },
+    "ultra_preresize": {
+      "name": "Ultralytics pre-resize",
+      "avg_ms": 165.5,
+      "median_ms": 142.0,
+      "min_ms": 130.5,
+      "max_ms": 447.7
+    },
+    "onnx_letterbox": {
+      "name": "ONNX Runtime letterbox",
+      "avg_ms": 254.2,
+      "median_ms": 226.1,
+      "min_ms": 177.4,
+      "max_ms": 425.7
+    },
+    "onnx_simple": {
+      "name": "ONNX simple resize",
+      "avg_ms": 240.8,
+      "median_ms": 199.3,
+      "min_ms": 171.7,
+      "max_ms": 413.3
+    },
+    "cv2dnn_onnx": {
+      "name": "cv2.dnn ONNX",
+      "avg_ms": 665.4,
+      "median_ms": 603.1,
+      "min_ms": 420.6,
+      "max_ms": 863.2
+    },
+    "eye_haar": {
+      "name": "Eye Haar",
+      "avg_ms": 204.2,
+      "median_ms": 175.4,
+      "min_ms": 140.6,
+      "max_ms": 449.6
+    },
+    "eye_yolo_kpts": {
+      "name": "Eye YOLO kpts",
+      "avg_ms": 165.7,
+      "median_ms": 162.5,
+      "min_ms": 130.8,
+      "max_ms": 241.8
+    },
+    "yolo_arcface": {
+      "name": "YOLO + ArcFace",
+      "avg_ms": 215.3,
+      "median_ms": 216.7,
+      "min_ms": 139.2,
+      "max_ms": 355.9
+    },
+    "arcface_per_face": {
+      "name": "ArcFace per face",
+      "avg_ms": 19.8,
+      "faces_tested": 3
+    }
+  }
+}
